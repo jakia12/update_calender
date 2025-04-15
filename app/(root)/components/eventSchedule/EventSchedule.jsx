@@ -12,7 +12,7 @@ const EventSchedule = () => {
         </h2>
       </div>
       <div className="w-full bg-[#171717] py-[100px]">
-        <div className="max-w-[80%] w-[95%] mx-auto">
+        <div className="max-w-[80%] w-[95%] mx-auto relative">
           <FiltersAndAction />
           <DaysGrid />
           <Grid31 />
