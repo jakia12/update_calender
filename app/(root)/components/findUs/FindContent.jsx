@@ -1,6 +1,6 @@
 const FindContent = () => {
   return (
-    <div className="flex flex-col lg:flex-row w-full    bg-[#171717] rounded-[117px] items-center ">
+    <div className="flex flex-col lg:flex-row w-full    bg-[#171717] lg:rounded-[117px] rounded-[65px]  items-center ">
       {/* Left Column */}
       <div className="w-full lg:w-1/2 flex justify-center items-center ">
         <img
