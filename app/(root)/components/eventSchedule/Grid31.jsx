@@ -144,22 +144,22 @@ const Grid31 = () => {
   ];
 
   return (
-    <div className="w-full px-4 py-6">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
+    <div className="w-full py-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
         {days.map((day) => (
           <div
             key={day.id}
-            className="w-full h-[196px] bg-transparent border border-white/30 rounded-lg text-white p-3 flex flex-col gap-2 cursor-pointer hover:border-white"
+            className="w-full h-[210px] bg-transparent border border-[#5B5B5B] rounded-[25px] text-white p-3 flex flex-col gap-2 cursor-pointer hover:border-white"
             onClick={() => openModal(day)}
           >
             <div className="text-sm font-bold text-left"> {day.Number}</div>
             {day.firstItem && (
-              <button className="border border-[#DD2929] text-[#DD2929] rounded-lg bg-transparent px-2 py-3 text-xs w-full">
+              <button className="border border-[#DD2929] text-[#DD2929] rounded-lg bg-transparent px-2 py-[14px] text-xs w-full mb-2">
                 {day.firstItem}
               </button>
             )}
             {day.secondItem && (
-              <button className="bg-transparent border border-[#F0AD44] text-[#F0AD44]  rounded-lg px-2 py-3 text-xs w-full">
+              <button className="bg-transparent border border-[#F0AD44] text-[#F0AD44]  rounded-lg px-2 py-[14px] text-xs w-full">
                 {day.secondItem}
               </button>
             )}
@@ -170,7 +170,7 @@ const Grid31 = () => {
       {/* Modal */}
       {isModalOpen && selectedDay && (
         <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 pt-[30px]">
-          <div className="bg-transparent text-black rounded-lg p-6 w-[90%] max-w-[300px] relative border border-gray-200">
+          <div className="bg-transparent text-black rounded-[25px] p-6 w-[90%] max-w-[300px] relative border border-[#5B5B5B]">
             <button
               onClick={closeModal}
               className="absolute top-2 right-2 text-white hover:text-white text-xl"
@@ -187,12 +187,12 @@ const Grid31 = () => {
               </h2>
             </div>{" "}
             {selectedDay.firstItem && (
-              <button className="border border-red-500 text-red-500 rounded-lg bg-transparent px-2 py-3 text-xs w-full mb-4">
+              <button className="border border-red-500 text-red-500 rounded-lg bg-transparent px-2 py-[14px] text-xs w-full mb-4">
                 {selectedDay.firstItem}
               </button>
             )}
             {selectedDay.secondItem && (
-              <button className="bg-yellow-400 text-black rounded-lg px-2 py-3 text-xs w-full">
+              <button className="bg-yellow-400 text-black rounded-lg px-2 py-[14px] text-xs w-full">
                 {selectedDay.secondItem}
               </button>
             )}

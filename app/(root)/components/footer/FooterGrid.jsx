@@ -8,10 +8,10 @@ export default function FooterGrid() {
     <div className="w-full text-white px-6 py-10">
       <div className="lg:flex justify-center">
         {/* First Column */}
-        <div className="lg:w-[50%] w-full flex items-center justify-center">
+        <div className="lg:w-[50%] w-full  flex items-center justify-center">
           <div>
             {/* Logo */}
-            <div className="relative w-[186px] h-[50px]">
+            <div className="relative w-[186px] h-[50px] mx-auto  lg:mx-0 xl:mx-0">
               <Image
                 src="/images/flogo.png"
                 alt="Logo"
@@ -22,14 +22,14 @@ export default function FooterGrid() {
             </div>
 
             {/* Description */}
-            <p className="text-[16px] text-gray-300 text-left font-poppins w-full lg:w-[480px] my-[30px]">
+            <p className="text-[16px] text-gray-300 text-center lg:text-left xl:text-left font-poppins w-full lg:w-[480px] my-[30px]">
               Stay connected with the best food trucks in town! Explore unique
               flavors, check schedules for Cape Canaveral and Patrick SFB, and
               never miss out on your favorite bites.
             </p>
 
             {/* Social Icons */}
-            <div className="flex gap-4">
+            <div className="flex gap-4  justify-center lg:justify-start xl:justify-start">
               {["fb", "ins", "tt", "tg"].map((icon) => (
                 <div key={icon} className="relative w-8 h-8">
                   <Link href="#">
@@ -47,7 +47,7 @@ export default function FooterGrid() {
         </div>
 
         {/* Second Column */}
-        <div className="lg:w-[25%] w-full mt-10 lg:mt-0">
+        <div className="lg:w-[25%] w-full  mt-10 lg:mt-0">
           <h3 className="font-[700] text-[20px] mb-2 text-[#F8DA55] font-libre">
             Useful Links
           </h3>
@@ -68,7 +68,7 @@ export default function FooterGrid() {
         </div>
 
         {/* Third Column */}
-        <div className="lg:w-[25%] w-full mt-10 lg:mt-0">
+        <div className="lg:w-[25%] md:w-full w-full mt-10 lg:mt-0">
           <h3 className="font-[700] text-[20px] mb-2 text-[#F8DA55] font-libre">
             Trucks
           </h3>

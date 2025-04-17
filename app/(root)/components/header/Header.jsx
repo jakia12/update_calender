@@ -23,7 +23,7 @@ const Header = () => {
 
       {/* Main Header */}
       <div className=" bg-white">
-        <div className="max-w-[80%] w-[95%] mx-auto flex items-center justify-between p-4 md:px-8">
+        <div className="max-w-[80%] w-[95%] mx-auto flex items-center justify-between py-4 ">
           {/* Logo */}
           <Link href="/">
             <img
@@ -47,7 +47,7 @@ const Header = () => {
 
             <a
               href="#contact"
-              className="ml-4 bg-[#171717] text-[#F8DA55] px-4 py-[10px] rounded-lg font-poppins hover:bg-[#222] transition"
+              className="ml-4 bg-[#171717] text-[#F8DA55] px-4 py-[10px] rounded-[15px] font-poppins hover:bg-[#222] transition"
             >
               Contact Us
             </a>

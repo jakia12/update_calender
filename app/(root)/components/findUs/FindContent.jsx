@@ -2,11 +2,11 @@ const FindContent = () => {
   return (
     <div className="flex flex-col lg:flex-row w-full    bg-[#171717] rounded-[117px] items-center ">
       {/* Left Column */}
-      <div className="w-full lg:w-1/2 flex justify-center items-center">
+      <div className="w-full lg:w-1/2 flex justify-center items-center ">
         <img
           src="/images/map.png"
           alt="Left visual"
-          className="w-full  rounded-lg "
+          className="w-full  rounded-lg cust_img"
         />
       </div>
 
@@ -18,7 +18,7 @@ const FindContent = () => {
           alt="Right visual"
           className="w-full max-w-[320px] rounded-md mb-[20px]"
         />
-        <div className="w-full lg:w-[418px] h-[220px] xl:w-[450px] border border-[#5B5B5B] rounded-[50px] flex items-center px-[20px]">
+        <div className="w-full lg:w-[418px] h-[220px] xl:w-[450px] border border-[#5B5B5B] rounded-[50px] flex items-center px-[20px] ">
           <div>
             <h2 className="text-[18px]  font-[500] mb-2 text-white">
               Cape Canaveral
@@ -35,7 +35,7 @@ const FindContent = () => {
           alt="Right visual"
           className="w-full max-w-[320px] rounded-md mt-[45px] mb-[20px]"
         />
-        <div className="w-full lg:w-[418px] h-[220px] xl:w-[450px] border border-[#5B5B5B] rounded-[50px] flex items-center px-[20px]">
+        <div className="w-full lg:w-[418px] h-[220px] xl:w-[450px] border border-[#5B5B5B] rounded-[50px] flex items-center px-[20px] cPad">
           <div>
             <h2 className="text-[18px]  font-[500] mb-2 text-white">
               Patrick Space

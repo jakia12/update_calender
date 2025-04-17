@@ -10,3 +10,21 @@
   right: 0;
   bottom: 10%;
 }
+
+@media screen and (max-width: 900px) {
+  .cust_img {
+    width: 75%;
+    height: 578px;
+    margin-top: 35px;
+    margin-bottom: 39px;
+  }
+  .cPad {
+    margin-bottom: 41px;
+  }
+  .md7 {
+    width: 68%;
+  }
+  .md3 {
+    width: 30%;
+  }
+}

@@ -11,7 +11,7 @@ const EventSchedule = () => {
           Event <span className="text-[#EE263D]">Schedule</span>
         </h2>
       </div>
-      <div className="w-full bg-[#171717] py-[100px]">
+      <div className="w-full bg-[#171717] lg:py-[100px] py-[45px] ">
         <div className="max-w-[80%] w-[95%] mx-auto relative">
           <FiltersAndAction />
           <DaysGrid />
