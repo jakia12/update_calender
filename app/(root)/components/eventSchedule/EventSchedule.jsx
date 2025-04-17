@@ -7,7 +7,7 @@ const EventSchedule = () => {
   return (
     <section className="pt-[90px] pb-0 ">
       <div className="text-center bg-[#fff]">
-        <h2 className="font-[700] text-[50px] text-[#111] font-libre pb-[60px]">
+        <h2 className="font-[700] lg:text-[50px] text-[40px] text-[#111] font-libre pb-[60px]">
           Event <span className="text-[#EE263D]">Schedule</span>
         </h2>
       </div>
